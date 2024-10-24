@@ -6,6 +6,7 @@ import Elearning from "../../Assets/Projects/E_learning.jpg";
 import stms from "../../Assets/Projects/STMS.jpg";
 import Traffic from "../../Assets/Projects/Traffic_controll.jpg";
 import fb from "../../Assets/Projects/fbclone.jpg";
+import exam from "../../Assets/Projects/exam.jpg";
 
 function Projects() {
   return (
@@ -21,19 +22,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={fb}
-              isBlog={false}
-              title="Social Media clone"
-              description="Built with MERN Stack,this platform replicates key social media features like user profiles, 
-              friend connections, and a news feed. It includes real-time posting, image sharing, commenting, and liking 
-              functionalities. The platform also supports secure user authentication and a responsive design for seamless
-               interaction across devices."
-              ghLink="https://github.com/segish/Stock_Management_System.git"
-              demoLink="https://github.com/segish/Stock_Management_System.git"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={Elearning}
               isBlog={false}
               title="E-Learning Platform"
@@ -41,7 +29,20 @@ function Projects() {
               It includes user authentication, course enrollment, progress tracking, video lessons, and a discussion forum. 
               The site is responsive and optimized for performance, making it accessible across all devices."
               ghLink="https://github.com/segish/E_learning_NERD"
-              demoLink="https://github.com/segish/E_learning_NERD"
+              demoLink="https://segish-social.netlify.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exam}
+              isBlog={false}
+              title="Online Exam System Desktop App"
+              description="Developed as a desktop application using Java Swing, 
+              this system allows for secure and efficient online exams. Key features include user authentication,
+               timed tests, automatic grading, and result generation. 
+               The interface is user-friendly, ensuring smooth navigation for both students and administrators"
+              ghLink="https://github.com/segish/Online_examination_system.git"
+              demoLink="https://tsega-portfolio.netlify.app/"
             />
           </Col>
 
@@ -55,7 +56,7 @@ function Projects() {
                 improving traffic efficiency and reducing wait times. The model detects multiple vehicle types like cars, buses, and trucks, 
                 optimizing the flow across various lanes."
               ghLink="https://github.com/segish/AI_based_traffic_controll_system"
-              demoLink="https://github.com/segish/AI_based_traffic_controll_system"
+              demoLink="https://tsega-portfolio.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -68,7 +69,20 @@ function Projects() {
                 interface for managing products, suppliers, and customers. The system ensures efficient inventory control and improves
                  business operations."
               ghLink="https://github.com/segish/Stock_Management_System.git"
-              demoLink="https://github.com/segish/Stock_Management_System.git"              
+              demoLink="https://tsega-portfolio.netlify.app/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fb}
+              isBlog={false}
+              title="Social Media clone"
+              description="Built with MERN Stack,this platform replicates key social media features like user profiles, 
+              friend connections, and a news feed. It includes real-time posting, image sharing, commenting, and liking 
+              functionalities. The platform also supports secure user authentication and a responsive design for seamless
+               interaction across devices."
+              ghLink="https://github.com/segish/Social_Media_clone.git"
+              demoLink="https://segish-social.netlify.app"
             />
           </Col>
         </Row>

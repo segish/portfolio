@@ -15,7 +15,6 @@ import {
   SiExpress,
   SiTailwindcss
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 const FlutterLogo = () => (
   <img
