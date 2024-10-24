@@ -3,7 +3,7 @@
   <a href="https://github.com/segish" target="_blank">Tsega</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img1.jpg" />
 </div>
 
 <br/>
