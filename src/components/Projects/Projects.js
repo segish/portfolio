@@ -7,6 +7,7 @@ import stms from "../../Assets/Projects/STMS.jpg";
 import Traffic from "../../Assets/Projects/Traffic_controll.jpg";
 import fb from "../../Assets/Projects/fbclone.jpg";
 import exam from "../../Assets/Projects/exam.jpg";
+import sms from "../../Assets/Projects/sms.jpg";
 
 function Projects() {
   return (
@@ -83,6 +84,18 @@ function Projects() {
                interaction across devices."
               ghLink="https://github.com/segish/Social_Media_clone.git"
               demoLink="https://segish-social.netlify.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sms}
+              isBlog={false}
+              title="High School Management System"
+              description="Built from scratch using HTML, CSS, PHP, and Javascript  without using
+                any external frameworks or libraries., this system manages student records, 
+              attendance, and grading and connect teachers and student parents."
+              ghLink="https://github.com/segish/HighSchoolManagementSystem"
+              demoLink="https://github.com/segish/HighSchoolManagementSystem"
             />
           </Col>
         </Row>

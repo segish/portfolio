@@ -309,6 +309,20 @@ button:focus {
   color: #cd5ff8;
 }
 
+.discreption_type{
+  padding: 50px;
+  text-align: "left"
+}
+
+@media (max-width: 767px) {.discreption_type {
+    padding: 10px;
+    /* text-align: "left" */
+      height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
@@ -323,7 +337,7 @@ button:focus {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    /* position: absolute !important; */
   }
   .Typewriter__cursor {
     display: none !important;

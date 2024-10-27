@@ -27,12 +27,12 @@ function Home() {
                 <h5 className="purple">A COMPUTER ENGINEER</h5>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="discreption_type">
                 <Type />
               </div>
             </Col>
 
-            <Col md={5}>
+            <Col md={5} style={{zIndex:1}}>
               <img
                 src={homeLogo}
                 alt="home pic"
