@@ -9,6 +9,7 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiLaravel
 } from "react-icons/di";
 import {
   SiMysql,
@@ -50,6 +51,9 @@ function Techstack() {
       </Col>
       <Col xs={5} md={2} className="tech-icons">
         <SiExpress />
+      </Col>
+      <Col xs={5} md={2} className="tech-icons">
+        <DiLaravel />
       </Col>
       <Col xs={5} md={2} className="tech-icons">
         <FlutterLogo />

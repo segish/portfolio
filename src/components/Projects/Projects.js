@@ -100,7 +100,10 @@ function Projects() {
               levels, product categories, and order history. It features real-time stock updates, low stock alerts, and a user-friendly
               interface for managing products, suppliers, and customers. The system ensures efficient inventory control and improves
               business operations."
-              features={['Laravel', 'MySQL', 'SCSS', 'Dynamic']}
+              features={['manages sophisticated main store, sub store and shop data items in one DB system', 
+                'jwt authentication for admin and cashier sessions', 
+                'Amazing Database model to manage sales, credits, cashes, and transfered amount through bank accounts', 
+                'Respopnsive design for mobile tablet and desktops']}
               ghLink="https://github.com/segish/Stock_Management_System.git"
               demoLink="https://besal10.com/"              
             />

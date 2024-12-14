@@ -13,8 +13,8 @@ function AboutCard() {
             <br />
             I am a recent <span className="purple">Computer Engineering graduate</span> from <span className="purple">BahirDar University</span> with hands-on experience 
               <span className="purple"> in full-stack web development. </span>
-              Proficient in front-end technologies such as<span className="purple"> HTML, Tailwind CSS, and React</span>, 
-              as well as back-end development using <span className="purple">Node.js, Express, MySQL, and MongoDB,</span> 
+              Proficient in front-end technologies such as<span className="purple"> HTML, Tailwind CSS, React, and Blade</span>, 
+              as well as back-end development using <span className="purple">Node.js, Express, MySQL, and MongoDB, and also Laravel</span> 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
