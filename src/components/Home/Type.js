@@ -10,6 +10,7 @@ function Type() {
           "Freelancer",
           "MERN Stack Developer",
           "LARAVEL Developer",
+          "Next.js Developer",
           "Open Source Contributor",
         ],
         autoStart: true,

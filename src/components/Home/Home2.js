@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Java, Javascript, Python and others. </b>
+                <b className="purple"> C++, Java, Javascript, Python, php and others... </b>
               </i>
               <br />
               <br />
@@ -38,7 +38,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Node.js</b> and <b className="purple">Laravel</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -47,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and express.js</b>
+                <b className="purple"> React.js, Next.js, express.js</b>
               </i>
             </p>
           </Col>
