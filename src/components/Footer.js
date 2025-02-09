@@ -9,7 +9,7 @@ import { FaTelegramPlane } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <Container fluid className="footer">
+    <Container fluid className="footer" style={{ zIndex: 999999 }}>
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Tsega Tigneh</h3>

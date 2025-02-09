@@ -4,11 +4,13 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import { useState } from "react";
 import axios from 'axios';
+import Preloader from "../Pre";
 import { useEffect } from "react";
 
 function Projects() {
 
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchProjects();
@@ -16,20 +18,24 @@ function Projects() {
 
   const fetchProjects = async () => {
     try {
+      setLoading(true);
       const response = await axios.get(`https://portfolio-backend-h8bm.onrender.com/api/projects`);
       setProjects(response.data);
-      console.log(response.data);
+      setLoading(false);
     } catch (error) {
       console.error('Error fetching projects:', error);
     }
+
   };
 
   return (
     <Container fluid className="project-section">
+      {(loading ? <Preloader load={loading} /> : <>
       <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
+
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -50,6 +56,7 @@ function Projects() {
           ))}
         </Row>
       </Container>
+      </>)}
     </Container>
   );
 }

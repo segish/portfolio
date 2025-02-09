@@ -36,6 +36,7 @@ function NavBar() {
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
+      style={{ zIndex: 999999 }}
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
