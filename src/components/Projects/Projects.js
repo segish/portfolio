@@ -16,7 +16,7 @@ function Projects() {
 
   const fetchProjects = async () => {
     try {
-      const response = await axios.get(`https://localhost:5000/api/projects`);
+      const response = await axios.get(`https://portfolio-backend-h8bm.onrender.com/api/projects`);
       setProjects(response.data);
       console.log(response.data);
     } catch (error) {
@@ -38,7 +38,7 @@ function Projects() {
           {projects.map((project) => (
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={`https://localhost:5000/${project.image}`}
+                imgPath={project.image}
                 isBlog={false}
                 title={project.title}
                 description={project.description}
