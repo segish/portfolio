@@ -21,7 +21,7 @@ function ResumeNew() {
 
   const fetchCurrentResume = async () => {
     try {
-      const response = await axios.get(`https://portfolio-backend-h8bm.onrender.com/api/resume`);
+      const response = await axios.get(`https://localhost:5000/api/resume`);
       setCurrentResume(response.data);
       console.log(response.data);
     } catch (error) {
@@ -39,7 +39,7 @@ function ResumeNew() {
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
               variant="primary"
-              href={`https://portfolio-backend-h8bm.onrender.com/${currentResume?.file}`}
+              href={`https://localhost:5000/${currentResume?.file}`}
               target="_blank"
               style={{ maxWidth: "250px" }}
             >
@@ -50,7 +50,7 @@ function ResumeNew() {
         )}
         <Row className="resume">
           {loading ? <p>loading...</p> :
-            <Document file={`https://portfolio-backend-h8bm.onrender.com/${currentResume.file}`} className="d-flex justify-content-center flex-column align-items-center">
+            <Document file={`https://localhost:5000/${currentResume.file}`} className="d-flex justify-content-center flex-column align-items-center">
               <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
               <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
             </Document>}
@@ -60,7 +60,7 @@ function ResumeNew() {
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
               variant="primary"
-              href={`https://portfolio-backend-h8bm.onrender.com/${currentResume?.file}`}
+              href={`https://localhost:5000/${currentResume?.file}`}
               target="_blank"
               style={{ maxWidth: "250px" }}
             >
